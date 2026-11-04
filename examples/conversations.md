@@ -14,6 +14,11 @@ These examples show how the skill behaves. Claude's full answers are shortened t
 > **User:** Francés, español, quiero irme de Erasmus a Lyon.
 >
 > **Claude:** Parfait ! À partir de maintenant, on parle en français. Écris-moi en français, et je corrigerai tes erreurs à la fin de mes réponses. Tu peux écrire « change language » quand tu veux changer de langue.
+> Tu veux que j'enregistre ça pour que le mode pratique soit actif dans chaque nouveau chat ?
+>
+> **User:** Oui.
+>
+> *(Claude saves a standing preference. From now on, every new chat starts in practice mode without calling the skill.)*
 
 ## 2. A message with mistakes (intermediate level, English)
 

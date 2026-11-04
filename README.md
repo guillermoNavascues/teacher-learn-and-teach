@@ -22,8 +22,9 @@ It works with any language: English, French, German, Italian, Portuguese, Japane
 ## How it works
 
 1. **First time:** Claude asks three things: the language you want to practice, your native language and your goal (job interview, travel, exams…).
-2. **From then on:** write in that language. If Claude has memory turned on, it remembers your setup. If not, it asks again in each new conversation.
-3. **Change language:** write "change language" whenever you want to switch.
+2. **Make it permanent:** Claude asks if you want to save your setup. Say yes, and practice mode is on in every new chat without calling the skill again. Without memory, Claude gives you one line to paste into your custom instructions (or `CLAUDE.md` in Claude Code).
+3. **From then on:** just write in that language.
+4. **Change language:** write "change language" whenever you want to switch.
 
 Beginners (A1-A2) get the rule explanations in their native language. From B1 upward, everything is in the language you're practicing.
 
@@ -70,7 +71,7 @@ Copy the `teacher-learn-and-teach/` folder into `~/.claude/skills/` (for all you
 
 ## Tips
 
-- Skills are loaded when Claude thinks they're relevant. If Claude forgets the practice mode in a new chat, just mention the skill again.
+- Skills are loaded when Claude thinks they're relevant, so saving your setup (step 2) is what keeps practice mode on in new chats. If it still doesn't switch on, mention the skill once in that chat.
 - Don't be afraid of mistakes: the more you write, the more you learn.
 
 ## License
