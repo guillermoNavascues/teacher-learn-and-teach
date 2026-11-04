@@ -11,7 +11,11 @@ Funciona con cualquier idioma: inglés, francés, alemán, italiano, portugués,
 - **Responde solo en el idioma que practicas**, adaptándose a tu nivel (lo calcula por cómo escribes).
 - **Corrige tus errores al final de cada respuesta, solo si los hay**: gramática, ortografía, puntuación, frases poco naturales y palabras de otros idiomas. Cada corrección muestra lo que escribiste, la versión correcta y la regla en una línea.
 - **No responde a mensajes en otro idioma.** Solo te recuerda que escribas en el idioma que practicas. Así te obliga a practicar, que es justo la idea.
+- **Te avisa de los falsos amigos** (⚠️), palabras que se parecen a tu idioma pero significan otra cosa ("actually" ≠ "actualmente").
 - **Te señala los errores que repites** (🔁) para que veas tus patrones.
+- **Te dice lo que haces bien** (✓) cuando corriges un error antiguo o usas algo por encima de tu nivel.
+- **Modos de práctica cuando los pides**: simulacros de entrevista de trabajo, ejercicios de escritura, comprensión lectora y quizzes de vocabulario.
+- **Te ayuda con textos de trabajo y de programación**: emails, cartas de presentación, CVs, mensajes de commit, descripciones de pull requests y updates de standup.
 - **Te avisa si usas un lenguaje demasiado informal** cuando tu objetivo es formal, como una entrevista de trabajo.
 - **Te da vocabulario cuando se lo pides** ("teach me some words").
 

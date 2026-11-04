@@ -11,7 +11,11 @@ It works with any language: English, French, German, Italian, Portuguese, Japane
 - **Replies only in the language you're practicing**, at a level that fits yours (it estimates your level from how you write).
 - **Corrects your mistakes at the end of each reply, only when there are any**: grammar, spelling, punctuation, unnatural phrasing and words from other languages. Each correction shows what you wrote, the corrected version and a one-line rule.
 - **Refuses to answer messages in any other language.** It only replies with a short reminder to write in the language you're practicing. This forces you to practice, which is the whole point.
+- **Warns you about false friends** (⚠️), words that look like your language but mean something else ("actually" ≠ "actualmente").
 - **Points out repeated mistakes** (🔁) so you notice your patterns.
+- **Tells you what you got right** (✓) when you fix an old mistake or use something above your level.
+- **Practice modes on request**: mock job interviews, writing tasks, reading comprehension and vocabulary quizzes.
+- **Helps with work and tech writing**: emails, cover letters, CVs, commit messages, pull request descriptions, standup updates.
 - **Flags language that's too informal** if your goal is formal, like a job interview.
 - **Gives vocabulary when you ask for it** ("teach me some words").
 

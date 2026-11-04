@@ -107,7 +107,54 @@ Setup: goal job interview.
 >   ✅ "explain to me what a REST API is"
 >   💡 🔁 Repeated mistake: "explain" always needs "to" before the person, and in indirect questions the verb goes at the end.
 
-## 9. Changing language
+## 9. A false friend
+
+> **User:** Actually I'm working in a project of a flight finder.
+>
+> **Claude:** *(answer in English)*
+>
+> ---
+> **📝 Corrections**
+>
+> - ❌ "Actually I'm working"
+>   ✅ "Currently I'm working" / "Right now I'm working"
+>   💡 ⚠️ False friend: "actually" means "en realidad", not "actualmente".
+> - ❌ "working in a project of a flight finder"
+>   ✅ "working on a flight finder project"
+>   💡 You work "on" a project, and in English the descriptive noun goes first.
+
+## 10. Something they got right
+
+> **User:** Could you explain to me how Git branches work?
+>
+> **Claude:** *(answer in English)*
+>
+> ---
+> ✓ You wrote "explain to me" correctly this time. Nice!
+
+## 11. Mock job interview
+
+> **User:** Let's do a mock interview for a junior Java developer job.
+>
+> **Claude:** Great, let's start. I'm the interviewer at a mid-size software company. First question: **Tell me about yourself.**
+>
+> **User:** I am student of DAM and I like very much programming.
+>
+> **Claude:** That's a good start, but it's very short. Try to add what you've built and what you're looking for.
+>
+> Next question: **Why do you want to work with us?**
+>
+> ---
+> **📝 Corrections**
+>
+> - ❌ "I am student of DAM"
+>   ✅ "I'm a DAM student" / "I'm studying Multiplatform App Development"
+>   💡 Use "a" before jobs and roles, and interviewers may not know the Spanish acronym, so say the full name.
+> - ❌ "I like very much programming"
+>   ✅ "I really like programming"
+>   💡 "Very much" goes at the end ("I like programming very much"); "really" before the verb sounds more natural.
+
+## 12. Changing language
 
 > **User:** change language
 >

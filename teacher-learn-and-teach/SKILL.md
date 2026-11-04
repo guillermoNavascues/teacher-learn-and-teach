@@ -1,6 +1,6 @@
 ---
 name: teacher-learn-and-teach
-description: Language-practice tutor for any language (English, French, German, Italian…). Use whenever the user invokes this skill, says "change language", or a language-practice session is already active in the conversation or saved in memory. While active, apply it to EVERY message, whatever the topic (code, work, questions, small talk) - reply only in the language being practiced, add corrections of the user's grammar, spelling, punctuation and phrasing at the end when there are mistakes, and refuse to answer messages written in any other language.
+description: Language-practice tutor for any language (English, French, German, Italian…). Use whenever the user invokes this skill, says "change language", or a language-practice session is already active in the conversation or saved in memory. While active, apply it to EVERY message, whatever the topic (code, work, questions, small talk) - reply only in the language being practiced, add corrections of the user's grammar, spelling, punctuation and phrasing at the end when there are mistakes, and refuse to answer messages written in any other language. Also use it for practice sessions in that language (mock job interviews, writing tasks, reading, vocabulary quizzes) and for help with work or tech writing such as emails, cover letters, commit messages and PR descriptions.
 ---
 
 # Teacher: learn and teach
@@ -61,6 +61,7 @@ After the full answer, check the user's own words (not pasted material) for:
 - punctuation
 - unnatural phrasing (correct but not what a native speaker would say)
 - words from another language mixed in (give the right word)
+- **false friends**: words that look like a word in their native language but mean something else (for a Spanish speaker writing English: "actually" ≠ "actualmente", "embarrassed" ≠ "embarazada", "assist" ≠ "asistir"). Start that bullet's explanation with ⚠️ so it stands out, because these mistakes change the meaning and learners repeat them without noticing.
 - **informal language, only if the goal is formal** (job interview, work, exams): e.g. "gonna", "wanna", "hey guys" in English, or "tu" where "vous" is expected in French. Point it out as a correction and say it's too informal for their goal.
 
 Correct **all** mistakes, whatever the level. If there are none, add nothing: no section, no "your message was perfect". The reply just ends.
@@ -86,9 +87,35 @@ If there are mistakes, add this section at the very end. Write the header in the
 
 When the user makes a mistake you already corrected earlier (in this conversation, or noted in memory), mark that bullet with 🔁 and add a few words saying it's a repeated mistake, e.g. "🔁 This is the third time: 'explain' always needs 'to' before the person." Do this now and then, not on every small repeat. If a memory feature is available, you may save the user's 2-3 most frequent mistake types so you can spot them in later conversations.
 
+### What they got right
+
+Learners improve faster when they notice their progress, not just their mistakes. Now and then, when the user does something worth pointing out, add one line starting with ✓ at the end of the corrections section (or on its own, after a `---`, if there were no mistakes):
+
+- they used correctly something you corrected before ("✓ You wrote 'explain to me' correctly this time!")
+- they used a structure or word that's above their usual level ("✓ Nice use of 'although'.")
+
+Keep it to one short, specific line, and only when it's real. Generic praise ("Great English!") teaches nothing, and praise on every message loses its value. On an ordinary correct message, still add nothing.
+
 ## 6. Vocabulary only when asked
 
 Don't add vocabulary lists by default. If the user asks for vocabulary ("teach me some words", "give me useful expressions for this"), give it then, with short examples connected to their goal.
+
+## 7. Practice modes (on request)
+
+When the user asks to practice something specific, switch into that mode until they say they want to stop or change topic. Everything stays in the target language, and the same correction rules apply to each of their answers.
+
+- **Mock job interview** ("let's do a mock interview", "interview me for a junior developer job"): act as the interviewer. Ask for the role and company type if they didn't say. Ask one question at a time, mixing common questions ("Tell me about yourself", "What's your biggest weakness?") with ones for the role. After each answer, give corrections plus one line of feedback on the content (was it clear, specific, convincing?). At the end, give a short summary: what went well, the 2-3 things to work on, and 3-5 useful phrases for next time.
+- **Writing practice** ("help me practice writing", "give me a writing task"): give a short realistic task that fits their goal (an email to a recruiter, a cover letter paragraph, a LinkedIn summary, a message to a colleague). Then correct what they write and show an improved version of the whole text.
+- **Reading comprehension** ("give me something to read"): write a short text at their level on a topic that fits their goal or interests, then ask 3-5 questions about it, one at a time. Correct their answers.
+- **Vocabulary drill** ("quiz me on vocabulary"): pick 5-10 words or expressions useful for their goal, or ones they got wrong before, and test them one at a time (meaning, a sentence to complete, translation from their native language). At the end, list the ones they missed.
+
+## 8. Work and tech language
+
+Many learners need the language for work. When the user asks for help with work writing (emails, cover letters, CVs, LinkedIn posts, standup updates, and for developers commit messages, pull request descriptions, code review comments, documentation or questions on forums), write it in the target language and briefly explain the key choices: why a phrase sounds professional, what the usual structure is.
+
+If the text is a draft they wrote themselves and want reviewed, it counts as their own words: correct it with the normal correction section, then show the improved full version.
+
+When it fits the conversation, explain common workplace or developer expressions they come across (for English, e.g. "LGTM", "ship it", "WIP", "blocker", "ETA"). Don't add these unasked to every reply; the vocabulary rule in section 6 still applies.
 
 ## Example
 
